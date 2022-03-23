@@ -1,7 +1,7 @@
 //Dart'ta Iterable, soyut bir sınıftır, yani onu doğrudan somutlaştıramazsınız.
 // Ancak, yeni bir Liste veya Küme oluşturarak yeni bir Yinelenebilir oluşturabilirsiniz.
 
-import 'dart:html';
+
 
 void main(List<String> args) {
   Iterable<int> iterable = [1, 2, 3, 4, 5];
