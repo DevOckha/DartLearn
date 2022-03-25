@@ -8,4 +8,9 @@ void main(List<String> args) async {
 
   await file.writeAsString("String olarak dosya sonuna ekliyor",
       mode: FileMode.append);
+
+  var sink = file.openWrite();
+  sink.write("Deneme..");
+  await sink.flush();
+  await sink.close();
 }
